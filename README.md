@@ -1,5 +1,7 @@
 # JcDev Port-Scanner
 
-To execute this port scanner 
+-- Installation --
+
+git clone https://github.com/Jcdev-01/Port-Scanner.git
 
 python scanner.py
