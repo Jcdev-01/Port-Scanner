@@ -21,7 +21,7 @@ print("""
  \___/ \___|____/ \___| \_/       \___/|_|
                                           
  OPEN-SOURCE PROJECT | https://github.com/Jcdev-01/Port-Scanner
- 
+
                 Port Scanner by JcDev-01
 
     """);
@@ -36,7 +36,7 @@ try:
 		socket.setdefaulttimeout(1)
 		result = s.connect_ex((target,port)) #returns an error indicator - if port is open it throws a 0, otherwise 1
 		if result == 0:
-			print(f"Port {} is open".format(port))
+			print(f"Port {port} is open")
 		s.close()
 
 except KeyboardInterrupt:
