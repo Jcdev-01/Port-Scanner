@@ -21,12 +21,12 @@ print("""
  \___/ \___|____/ \___| \_/       \___/|_|
                                           
  OPEN-SOURCE PROJECT | https://github.com/Jcdev-01/Port-Scanner
-
-                Port Scanner by JcDev-01
+ Port Scanner by JcDev-01
 
     """);
 print("-" * 50)
 print("Scanning target "+target)
+print("***************** Happy Scanning :> ***************")
 print("Time started: "+str(datetime.now()))
 print("-" * 50)
 
