@@ -30,7 +30,7 @@ print("Time started: "+str(datetime.now()))
 print("-" * 50)
 
 try:
-	for port in range(50,85):
+	for port in range(20,443):
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		socket.setdefaulttimeout(1)
 		result = s.connect_ex((target,port)) #returns an error indicator - if port is open it throws a 0, otherwise 1
