@@ -4,4 +4,4 @@
 
 git clone https://github.com/Jcdev-01/Port-Scanner.git
 
-python scanner.py
+python scanner.py <target ip>
